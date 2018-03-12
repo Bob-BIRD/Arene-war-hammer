@@ -169,3 +169,4 @@ et pour choix2 :
 
 
 L'entier retourné est donc compris entre 0 et 95.
+ 
