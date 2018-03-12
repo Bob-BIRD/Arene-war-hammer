@@ -93,7 +93,7 @@ void pvp()
                     mouvement_j(coords_joueurs[joueur_actuel], choix1, carte);
                 } else
                 {
-                    fprintf(fichier, "0,0\n1\n3,%d,0\n", TUNITY + joueur_actuel);
+                    fprintf(fichier, "0,%d\n1\n3,%d,0\n", nb_joueurs_vivants, TUNITY + joueur_actuel);
                     joueurs_vivants[joueur_actuel] = 0;
                     nb_joueurs_vivants--;
                 }
@@ -129,7 +129,7 @@ void pvp()
                 }
             } else
             {
-                fprintf(fichier, "0\n0\n");
+                fprintf(fichier, "0\n%d\n", nb_joueurs_vivants);
             }
             for (j = 0; j < NBJOUEURS && nb_joueurs_vivants > 1; j++)
             {
@@ -451,4 +451,3 @@ void Color(int t,int f)
     HANDLE H=GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(H,f*16+t);
 }
-
