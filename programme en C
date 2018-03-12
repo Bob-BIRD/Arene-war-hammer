@@ -127,9 +127,6 @@ void pvp()
                         nb_joueurs_vivants--;
                     }
                 }
-            } else
-            {
-                fprintf(fichier, "0\n%d\n", nb_joueurs_vivants);
             }
             for (j = 0; j < NBJOUEURS && nb_joueurs_vivants > 1; j++)
             {
