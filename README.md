@@ -14,7 +14,7 @@ Principe du jeux :
 	War hammer est un jeux de survie. Le classement est donc simple : il est l’inverse de l’ordre des mort.
 	Le gagnant est donc le dernier survivant.
 
-	Initialement les joueurs se trouvent sur une plateforme composée de cases ayant toutes le même nombre de points de vie.
+	Initialement les joueurs se trouvent sur une plateforme composée de cases ayant toutes le même nombre de PVs.
 	Au cours de la partie les joueur effectueront des action qui enlèveront des points de vie aux case.
 
 	Lorsque les PV d’une case tombent à 0, cette case est détruite, elle disparaît, créant un trou dans la plateforme.
